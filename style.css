@@ -5,9 +5,9 @@
 }
 
 body {
-    background-image: url(./assets/bg-main-mobile.png);
+    /* background-image: url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: hidden; */
 }
 .logo {
     margin-left: 6.440vw;
