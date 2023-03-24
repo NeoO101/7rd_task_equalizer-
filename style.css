@@ -13,3 +13,35 @@ body {
     background-repeat: no-repeat;
     background-position: left 7rem top -10.4rem;
 }
+
+header {
+    padding: 35px 21px 0px 21px;
+}
+
+.main-text {
+    padding: 60px 30px 10px 0px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    color: #191826;
+    overflow: hidden;
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191826;  
+}
+.main-content {
+    background: #191826;
+    border-radius: 12px;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
