@@ -45,3 +45,174 @@ p {
     justify-content: center;
     align-items: center;
 }
+.phone-img {
+    position: absolute;
+    width: 12rem;
+    height: 22rem;
+    margin-top: -9rem;
+}
+.purchase-card {
+    padding: 40px;
+    justify-content: left;
+    position: relative;
+    margin-top: -2.2rem;
+    background: #FA7453;
+    border-radius: 12px;
+    height: 33rem;
+}
+.premium-eq {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FCFAF9
+}
+.paragraph-about {
+    margin: 28px 0px 20px 0px;
+}
+.about {
+    font-size: 18.5px;
+    line-height: 26px;
+    color: #FCFAF9;
+}
+.price-indic {
+    display: flex;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    color: #FCFAF9;
+    margin-top: 2rem;
+}
+h2{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 52px;
+}
+span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    margin: 10px 0px 0px 14px;
+}
+.download {
+    margin-top: 4%;
+}
+
+.download-btn-apple {
+    background: #191826;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+    height: 4rem;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    text-align: center;
+    color: #FCFAF9;
+    margin-top:1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out; 
+}
+.download-btn-apple:hover{  
+    background:#66E2DC;
+}
+.download-btn-android {
+    background:#FFB964;
+}
+.download-btn-android:hover{
+    background: #FCFAF9;
+    color: #191826;
+}
+footer{
+    padding: 40px 27px 70px 27px;
+}
+.contant-info {
+    margin: 20px 0px 30px 0px;
+    line-height: 30px;
+}
+.social-media {
+    background-color: #ffff;
+    margin-top: 3rem;
+    display: flex;
+    column-gap: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.social-media img: :hover{
+    filter: invert(50%) sepia(120%) saturate(2000%)
+}
+@media screen and (min-width 1100px){
+body {
+    padding: 0 10% 0 10%;
+    background-image: url('./assets/bg-main-desktop.png'), url('./assets/bg-pattern-1.svg');
+    background-size: 120% 90% 22% 27%;
+    background-position: left 71% top -50%, left 100% top -3%;
+}
+header {
+    width: 75%;
+}
+.main-text {
+    font-size: 40px;
+    padding:70px 0px 45px 0px;
+}
+h2{
+    font-size: 90px;
+    line-height: 80px;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.phone-img {
+    margin-top: -9rem;
+    margin-left: -23%;
+    height: 42rem;
+    width: 20rem;
+}
+.main-content {
+    margin-top: 17rem;
+    height:42rem;
+    overflow: hidden;
+}
+.purchase-card {
+    position: absolute;
+    width: 32rem;
+    height: 40rem;
+    margin: -35rem 0 0rem 40%;
+}
+span {
+    margin-top: 24px;
+}
+.paragraph-about {
+    margin-top: 10%;
+}
+.price-indic {
+    margin-top: 15%;
+}
+.download {
+    margin-top:12%;
+}
+.hieroglyph {
+    margin-bottom:12rem;
+    margin-right: 22%;
+    width:23rem;  
+}
+footer {
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 8rem;
+    align-items: center;
+}
+.contact_info{
+    margin: 0px 19rem 0px 13rem;
+    line-height: 30px;
+}
+.socials{
+    margin-top: 0rem;
+    display: flex;
+    column-gap: 1.5rem;
+}
+}
